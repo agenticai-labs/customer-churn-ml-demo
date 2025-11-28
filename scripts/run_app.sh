@@ -12,7 +12,7 @@ echo ""
 if [ ! -f "app/streamlit_app.py" ]; then
     echo "❌ Error: Please run this script from the customer-churn-ml-demo directory"
     echo "   cd customer-churn-ml-demo"
-    echo "   ./run_app.sh"
+    echo "   ./scripts/run_app.sh"
     exit 1
 fi
 
